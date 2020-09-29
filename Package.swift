@@ -16,6 +16,6 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .binaryTarget(name: "LClib.xcframework", path: "LCLib/Sources/LClib.xcframework")
+        .binaryTarget(name: "LClib", path: "LCLib/Sources/LClib/LClib.xcframework")
     ]
 )
