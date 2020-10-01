@@ -1,0 +1,119 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LCFramework
+import Combine
+import CoreData
+import Foundation
+@_exported import LCFramework
+import Swift
+import SwiftUI
+public struct Pie : SwiftUI.Shape {
+  public var startAngle: SwiftUI.Angle
+  public var endAngle: SwiftUI.Angle
+  public var animatableData: SwiftUI.AnimatablePair<Swift.Double, Swift.Double> {
+    get
+    set
+  }
+  public func path(in rect: CoreGraphics.CGRect) -> SwiftUI.Path
+  public typealias AnimatableData = SwiftUI.AnimatablePair<Swift.Double, Swift.Double>
+  public typealias Body = SwiftUI._ShapeView<LCFramework.Pie, SwiftUI.ForegroundStyle>
+}
+public protocol WebServiceHelper {
+  func task<Reponse>(Request: Foundation.URLRequest, Completion: @escaping (Swift.Result<Reponse, Swift.Error>) -> Swift.Void) where Reponse : Swift.Decodable, Reponse : Swift.Encodable
+}
+extension WebServiceHelper {
+  public func task<Reponse>(Request: Foundation.URLRequest, Completion: @escaping (Swift.Result<Reponse, Swift.Error>) -> Swift.Void) where Reponse : Swift.Decodable, Reponse : Swift.Encodable
+}
+extension Date {
+  public var descDay: Swift.String {
+    get
+  }
+  public var descHourlyHM: Swift.String {
+    get
+  }
+  public var descHourlyHMS: Swift.String {
+    get
+  }
+  public var descDate: Swift.String {
+    get
+  }
+  public var descDateFull: Swift.String {
+    get
+  }
+  public var descDateShort: Swift.String {
+    get
+  }
+}
+open class DataLoader<T> where T : AnyObject {
+  public var trace: Swift.Bool
+  public init(Session: Foundation.URLSession, Tracable: Swift.Bool = false, Convert: @escaping ((Foundation.Data) -> T?))
+  @objc deinit
+}
+extension DataLoader {
+  public func load(Request: Foundation.URLRequest, Callback: @escaping ((Swift.Result<T, Swift.Error>) -> Swift.Void))
+  public func load(Url: Foundation.URL, Callback: @escaping ((Swift.Result<T, Swift.Error>) -> Swift.Void))
+  public func cleanCache()
+  public func removeAllStorage()
+}
+extension Int {
+  public var descDegree: Swift.String {
+    get
+  }
+}
+public struct ChartView : SwiftUI.View {
+  public struct ChartData {
+    public init(Key: Swift.String, Value: Swift.Int, MaxValue: Swift.Double)
+  }
+  public init(Title: Swift.String, Color: SwiftUI.Color, Height: CoreGraphics.CGFloat = 20, Delay: Foundation.TimeInterval = 1, Data: [LCFramework.ChartView.ChartData])
+  public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s11LCFramework9ChartViewV4bodyQrvp", 0) 🦸
+}
+@_hasMissingDesignatedInitializers final public class Translator {
+  public static let shared: LCFramework.Translator
+  @objc deinit
+}
+extension Translator {
+  final public var langs: [Swift.String] {
+    get
+  }
+  final public func register(NewLang: Swift.String)
+  final public func select(Lang: Swift.String)
+  final public func set(Key: Swift.String, NewText: Swift.String, ForLang: Swift.String)
+  final public func translate(Key: Swift.String) -> Swift.String?
+  final public func translate(Lang: Swift.String, Key: Swift.String) -> Swift.String?
+  final public func removeAll()
+}
+extension String {
+  public var translate: Swift.String {
+    get
+  }
+}
+public class CoreDataStore<T> where T : CoreData.NSManagedObject {
+  public typealias Entity = T
+  public init(Traceable: Swift.Bool = false)
+  public var trace: Swift.Bool
+  public static func register(ContainerName: Swift.String)
+  public func create() -> T
+  public func fetch(Predicate: Foundation.NSPredicate? = nil, Limit: Swift.Int? = nil) -> Swift.Result<[T], Swift.Error>
+  public func first(Predicate: Foundation.NSPredicate? = nil) -> T?
+  public func delete(Entity: T)
+  public func save()
+  public func removeAll()
+  @objc deinit
+}
+extension Double {
+  public var descInt: Swift.String {
+    get
+  }
+  public var descDegree: Swift.String {
+    get
+  }
+  public var descCent: Swift.String {
+    get
+  }
+  public var descMil: Swift.String {
+    get
+  }
+}

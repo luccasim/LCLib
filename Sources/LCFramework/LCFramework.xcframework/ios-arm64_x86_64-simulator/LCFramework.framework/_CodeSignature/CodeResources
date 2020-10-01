@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/LCFramework-Swift.h</key>
 		<data>
-		pJ2Q1jOCKyfZ5H/A1LDFBpQqtP4=
+		2q04/GwKkrBntOhWVGPf2/4RsdQ=
 		</data>
 		<key>Headers/LCFramework.h</key>
 		<data>
@@ -14,35 +14,63 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oUV3NmVWDTU7BTf5pSrRRlIB0Ao=
+		awSAVpeP8viFnvvDkSY/IhF4HNc=
 		</data>
-		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		U+uKjv9G/4bT+BJoXiJaglAtCLY=
+		+Ffv0PhO4llBWsiIR4HjUhs3UHE=
 		</data>
-		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VPHaPY9ALEmMBCsGl3+SA+l7vIo=
+		6Tof30dUChzonbmyLL3s0XE8teI=
 		</data>
-		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Xig6fqR+2mL9K//1phkgcPMKHf0=
+		Cr9xZeQvag0viIahZTlI12qQYLk=
 		</data>
 		<key>Modules/LCFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		U+uKjv9G/4bT+BJoXiJaglAtCLY=
+		+Ffv0PhO4llBWsiIR4HjUhs3UHE=
 		</data>
 		<key>Modules/LCFramework.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		VPHaPY9ALEmMBCsGl3+SA+l7vIo=
+		6Tof30dUChzonbmyLL3s0XE8teI=
 		</data>
 		<key>Modules/LCFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Xig6fqR+2mL9K//1phkgcPMKHf0=
+		Cr9xZeQvag0viIahZTlI12qQYLk=
+		</data>
+		<key>Modules/LCFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		YGi9tzuIdv7NqCZtmZ66p6HTtao=
+		</data>
+		<key>Modules/LCFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		Amj7gwHTX/DQOEcY6SMn+Npwk2g=
+		</data>
+		<key>Modules/LCFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		+RVr4ia5K1+XJ96dhLvZVBRzUF4=
+		</data>
+		<key>Modules/LCFramework.swiftmodule/x86_64.swiftdoc</key>
+		<data>
+		YGi9tzuIdv7NqCZtmZ66p6HTtao=
+		</data>
+		<key>Modules/LCFramework.swiftmodule/x86_64.swiftinterface</key>
+		<data>
+		Amj7gwHTX/DQOEcY6SMn+Npwk2g=
+		</data>
+		<key>Modules/LCFramework.swiftmodule/x86_64.swiftmodule</key>
+		<data>
+		+RVr4ia5K1+XJ96dhLvZVBRzUF4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		4zS9fn+rrJgGm/Tc6URhJFkPlRY=
+		</data>
+		<key>xcframework</key>
+		<data>
+		PuvgTabncmRnlLlFhCMWGwSqDA0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZEC7y7otzGcoAF6S4ty6BUVAhWMRSeX6Xxf8JvqAoXw=
+			kI4U1nej81h9yIx8GTkIV53rRpqGwk0cTWvM4ebd0yA=
 			</data>
 		</dict>
 		<key>Headers/LCFramework.h</key>
@@ -61,46 +89,88 @@
 			c7OQv8MI33XcR9fQ0SNDrPuoV5uBnyHSgDvH7D0tMa0=
 			</data>
 		</dict>
-		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zey/9tXhfKVxXE9QuieZ+EMelYeEhgd6fNzlQmA43CM=
+			laoaUq6eYCArHWyfuHtfgyhWMsaoGezE/OloGPJyBlY=
 			</data>
 		</dict>
-		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wQzz9omHb9n47OKA/iCJ2HQ2pDwM1lPko1ZpqnLE6iE=
+			1IRcb3ydzwlNxqswfiiMrHen+ahIgXd61+5nwOI1FYc=
 			</data>
 		</dict>
-		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/LCFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gtOCCQvL6KUMRoPMUvP4QdlHNc4cFJ6aZV9lkrcFZ6s=
+			XW3/K4P+zdsUqvHYsu8p9mQXGHmnnV7yhFj0VQchzAg=
 			</data>
 		</dict>
 		<key>Modules/LCFramework.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zey/9tXhfKVxXE9QuieZ+EMelYeEhgd6fNzlQmA43CM=
+			laoaUq6eYCArHWyfuHtfgyhWMsaoGezE/OloGPJyBlY=
 			</data>
 		</dict>
 		<key>Modules/LCFramework.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wQzz9omHb9n47OKA/iCJ2HQ2pDwM1lPko1ZpqnLE6iE=
+			1IRcb3ydzwlNxqswfiiMrHen+ahIgXd61+5nwOI1FYc=
 			</data>
 		</dict>
 		<key>Modules/LCFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gtOCCQvL6KUMRoPMUvP4QdlHNc4cFJ6aZV9lkrcFZ6s=
+			XW3/K4P+zdsUqvHYsu8p9mQXGHmnnV7yhFj0VQchzAg=
+			</data>
+		</dict>
+		<key>Modules/LCFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PD5F8ujuzBOYRC+h7Yqu7ky11c2rganjzsIQm5B62YQ=
+			</data>
+		</dict>
+		<key>Modules/LCFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AW+3CxX/ll6SLOwW5sr3PtqKuv+2aYvfmKvF60gdlp8=
+			</data>
+		</dict>
+		<key>Modules/LCFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aMPy+m+4/v8k/xFWZ8P3h9O5ljnGN4NCbBU/81cqJyE=
+			</data>
+		</dict>
+		<key>Modules/LCFramework.swiftmodule/x86_64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PD5F8ujuzBOYRC+h7Yqu7ky11c2rganjzsIQm5B62YQ=
+			</data>
+		</dict>
+		<key>Modules/LCFramework.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AW+3CxX/ll6SLOwW5sr3PtqKuv+2aYvfmKvF60gdlp8=
+			</data>
+		</dict>
+		<key>Modules/LCFramework.swiftmodule/x86_64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aMPy+m+4/v8k/xFWZ8P3h9O5ljnGN4NCbBU/81cqJyE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -108,6 +178,13 @@
 			<key>hash2</key>
 			<data>
 			QrnkMLbq9Z3t96mzM3BEn5mJpH8RDfsP4SxR31LKk7E=
+			</data>
+		</dict>
+		<key>xcframework</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m2pFoXKyEPASJtFuSyyJLTOrM4QClrWKe5B+qJMOIYE=
 			</data>
 		</dict>
 	</dict>
