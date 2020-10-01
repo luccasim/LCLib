@@ -1,0 +1,52 @@
+# Pour faire le xcframework il faut :
+
+# 0 - On clean le dossier archives
+
+rm -r --force /Users/admin/Library/Developer/Xcode/Archives/*
+
+# 1 - Crée l'archive en indiquant les plateformes de destination.
+
+xcodebuild archive \
+ -scheme LCFramework \
+ -destination="iOS" \
+ -sdk iphoneos \
+ SKIP_INSTALL=NO \
+ && cp -r /Users/admin/Library/Developer/Xcode/Archives/*/*.xcarchive/Products/Library/Frameworks/ iOS \
+ && rm -rf /Users/admin/Library/Developer/Xcode/Archives/*
+ 
+ xcodebuild archive \
+ -scheme LCFramework \
+ -destination="iOS Simulator" \
+ -sdk iphoneos \
+ SKIP_INSTALL=NO \
+ && cp -r /Users/admin/Library/Developer/Xcode/Archives/*/*.xcarchive/Products/Library/Frameworks/ iOS-sim \
+ && rm -rf /Users/admin/Library/Developer/Xcode/Archives/*
+ 
+# 2 - Ensuite
+
+xcodebuild -create-xcframework \
+  -framework iOS/LCFramework.framework \
+  -framework iOS-sim/LCFramework.framework \
+  -output Mylib.xcframework
+
+# 3 - Full script
+
+    xcodebuild archive \
+    -scheme LCFramework \
+    -destination "generic/platform=iOS Simulator" \
+    -archivePath "archives/LCFramework-Simulator" \
+    SKIP_INSTALL=NO \
+    BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
+  && xcodebuild archive \
+    -scheme LCFramework \
+    -destination "generic/platform=iOS" \
+    -archivePath "archives/LCFramework" \
+    SKIP_INSTALL=NO \
+    BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
+  && cp -r archives/LCFramework-Simulator.xcarchive/Products/Library/Frameworks/. archives/simulator \
+  && cp -r archives/LCFramework.xcarchive/Products/Library/Frameworks/. archives/ios \
+  && xcodebuild -create-xcframework \
+    -framework archives/ios/LCFramework.framework \
+    -framework archives/simulator/LCFramework.framework \
+    -output LCFramework.xcframework \
+ && rm -rf archives
